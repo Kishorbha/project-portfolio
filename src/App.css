@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+
 .App {
   text-align: center;
 }
@@ -20,7 +22,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(5opx + 2vmin);
   color: white;
 }
 
@@ -35,4 +37,59 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.logo {
+  width: 5rem;
+}
+
+.bar {
+  float: right;
+}
+
+nav a.nav-link {
+  font-size: 0.8rem;
+  
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+  margin-right: 1.875rem;
+  margin-left: 1.875rem;
+  margin-top: 1.875rem;
+  margin-bottom: 1.875rem;
+}
+
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar-nav > li > a {
+  color: var(--primary-white) !important;
+  border-top: 0.1875rem;
+  border-top: 0.1875rem solid var(--primary-dark);
+}
+
+:root{
+  --primary-dark:rgb(255,255,255,0);
+  --primary-white: #fff;
+  --primary-orange: #f9ab00; 
+}
+
+.navbar-nav > li >a:hover{
+  border-top: 0.1875rem solid var(--primary-orange); 
+}
+
+.navbar-brand{
+  width: 17.25rem;
+  height: 6rem !important;
+  padding: 0 !important;
+  
+}
+
+.navbar-nav > li > li> a.active, .navbar-nav > li > a.active:focus {
+  border-top: 0.1875rem solid var(--primary-orange);
+  
 }
