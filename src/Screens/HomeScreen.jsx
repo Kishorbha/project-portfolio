@@ -15,14 +15,14 @@ export const HomeScreen = () => {
           strings={[
             "I am Kishor Bhandari",
             "This is my Portfolio",
-            "I am a React Developer",
+            "I am a Software Developer",
           ]}
           typeSpeed={40}
           backSpeed={60}
           loop
         ></Typed>
 
-        <a href="/contacts" className="btn-main-offer">
+        <a href="https://www.facebook.com/bhandarikishor007/" className="btn-main-offer">
           Contact me
         </a>
       </div>

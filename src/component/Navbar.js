@@ -11,7 +11,7 @@ export const Navbar = () => {
             <nav className="navbar navbar-expand-lg ">
                 <div className="container">
   <div className="container-fluid">
-    <Customlink className="navbar-brand" to="/"><img className="logo"src={logo1}/></Customlink>
+    <Customlink className="navbar-brand" to="/"><img alt="..." className="logo"src={logo1}/></Customlink>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <FontAwesomeIcon icon={faBars} style={{color:"#fff"}}/>
     </button>
