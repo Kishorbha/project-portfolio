@@ -46,6 +46,7 @@ export const ContactScreen = () => {
     <div className="contacts">
       <div className="text-center">
         <h1>Contact me</h1>
+        <span className="sucess-message">{sucessMessage}</span>
       </div>
 
       <div className="container">
@@ -80,12 +81,8 @@ export const ContactScreen = () => {
                 name="phone"
                 aria-invalid={errors.phone ? "true" : "false"}
                 {...register("phone", {
-                  required: "Please enter your phone number",
-                  maxLength: {
-                    value: 20,
-                    message:
-                      "Please enter a name with fewer than 20 characters",
-                  },
+                  required: "Please enter your phone number"
+                 
                 })}
               />
               <div className="line"></div>
@@ -102,11 +99,11 @@ export const ContactScreen = () => {
                 aria-invalid={errors.email ? "true" : "false"}
                 {...register("email", {
                   required: "Please enter your email",
-                  maxLength: {
-                    value: 20,
-                    message:
-                      "Please enter a name with fewer than 20 characters",
-                  },
+                  pattern:{
+                    value:/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/i,
+                    message:"invalid Email"
+                  }
+                  
                 })}
               />
               <div className="line"></div>
@@ -122,12 +119,8 @@ export const ContactScreen = () => {
                 name="subject"
                 aria-invalid={errors.subject ? "true" : "false"}
                 {...register("subject", {
-                  required: "Please write subject",
-                  maxLength: {
-                    value: 20,
-                    message:
-                      "Please enter a name with fewer than 20 characters",
-                  },
+                  required: "Add subject"
+              
                 })}
               />
               <div className="line"></div>
@@ -143,12 +136,8 @@ export const ContactScreen = () => {
                 name="description"
                 aria-invalid={errors.description ? "true" : "false"}
                 {...register("description", {
-                  required: "Describe your needs",
-                  maxLength: {
-                    value: 20,
-                    message:
-                      "Please enter a name with fewer than 20 characters",
-                  },
+                  required: "Describe your needs"
+                 
                 })}
               ></textarea>
               <div className="line"></div>

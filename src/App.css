@@ -444,3 +444,16 @@ textarea.form-control {
   color: #d43b0d;
   cursor: pointer;
 }
+
+
+.error-message{
+  color:#f0f2f3;
+  background: red;
+  text-align:left;
+  
+}
+
+.sucess-message{
+  font-weight: 900;
+  color:green;
+}
