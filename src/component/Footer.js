@@ -1,12 +1,14 @@
 import React from "react";
+import { Gmap } from "./Gmap";
 import {
   FacebookIcon,
   FacebookShareButton,
   LinkedinIcon,
   LinkedinShareButton,
   FacebookMessengerShareButton,
-  FacebookMessengerIcon
+  FacebookMessengerIcon,
 } from "react-share";
+import {Link as Customlink} from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -15,7 +17,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="d-flex">
-              <p>Kanchanpur, Nepal</p>
+              <Customlink  to="/gmap">Kanchanpur, Nepal </Customlink>
             </div>
             <div className="d-flex">
               <a href="tel:0977-9848745555">+977-9848762254</a>
@@ -62,12 +64,13 @@ const Footer = () => {
                 quote="Software Developer"
                 hashtag="#react"
               >
-                <FacebookMessengerIcon className="mx-3" size={33}></FacebookMessengerIcon>
+                <FacebookMessengerIcon
+                  className="mx-3"
+                  size={33}
+                ></FacebookMessengerIcon>
               </FacebookMessengerShareButton>
             </div>
-          
           </div>
-         
         </div>
       </div>
     </div>

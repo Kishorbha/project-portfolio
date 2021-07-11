@@ -15,6 +15,8 @@
     "bootstrap": "^5.0.2",
     "emailjs-com": "^3.1.0",
     "firebase-functions": "^3.14.1",
+    "google-map-react": "^2.1.10",
+    "google-maps-react": "^2.0.6",
     "instagram-private-api": "^1.45.1",
     "react": "^17.0.2",
     "react-dom": "^16.14.0",

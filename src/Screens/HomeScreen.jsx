@@ -22,7 +22,7 @@ export const HomeScreen = () => {
           loop
         ></Typed>
 
-        <a href="https://www.facebook.com/bhandarikishor007/" className="btn-main-offer">
+        <a href="https://linkfly.to/30711aTmng2" className="btn-main-offer">
           Contact me
         </a>
       </div>

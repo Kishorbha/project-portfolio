@@ -9,6 +9,7 @@ import { PortfolioScreen } from "./Screens/PortfolioScreen";
 import { HomeScreen } from "./Screens/HomeScreen";
 import Particles from "react-particles-js";
 import { ContactScreen } from "./Screens/ContactScreen";
+import  Gmap  from "./component/Gmap";
 
 
 
@@ -80,6 +81,7 @@ v3.3.0
         <Route path="/services" component={ServicesScreen} />
         <Route path="/portfolio" component={PortfolioScreen}/>
 		<Route path="/contact" component={ContactScreen}/>
+		<Route path="/gmap" component={Gmap}/>
         
         <Route path="/" component={HomeScreen} />
       </Switch>
