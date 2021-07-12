@@ -15,6 +15,7 @@ const Footer = () => {
     <div className="footer">
       <div className="container">
         <div className="row">
+          <p>Copyright © 2021 | Kishor Bhandari | All Rights Reserved</p>
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="d-flex">
               <Customlink  to="/gmap">Kanchanpur, Nepal </Customlink>

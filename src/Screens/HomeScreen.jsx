@@ -14,8 +14,9 @@ export const HomeScreen = () => {
           }}
           strings={[
             "I am Kishor Bhandari",
-            "This is my Portfolio",
+            "This is my official website",
             "I am a Software Developer",
+            
           ]}
           typeSpeed={40}
           backSpeed={60}
@@ -23,7 +24,7 @@ export const HomeScreen = () => {
         ></Typed>
 
         <a href="https://linkfly.to/30711aTmng2" className="btn-main-offer">
-          Contact me
+          Follow me
         </a>
       </div>
     </div>

@@ -41,6 +41,8 @@
 
 .logo {
   width: 5rem;
+  margin-top: 10px;
+  display: inline;
 }
 
 .bar {
@@ -79,6 +81,7 @@ body {
 }
 
 .navbar-brand {
+  display: inline-block;
   width: 17.25rem;
   height: 6rem !important;
   padding: 0 !important;
