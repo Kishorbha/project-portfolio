@@ -1,15 +1,15 @@
 import React from "react";
 import { Gmap } from "./Gmap";
 import { SocialIcon } from 'react-social-icons';
-// import {
-//   FacebookIcon,
-//   FacebookShareButton,
-//   LinkedinIcon,
-//   LinkedinShareButton,
-//   FacebookMessengerShareButton,
-//   FacebookMessengerIcon,
+import {
+  FacebookIcon,
+  FacebookShareButton,
+  LinkedinIcon,
+  LinkedinShareButton,
+  FacebookMessengerShareButton,
+  FacebookMessengerIcon,
   
-// } from "react-share";
+} from "react-share";
 import {Link as Customlink} from "react-router-dom";
 
 const Footer = () => {
@@ -20,7 +20,7 @@ const Footer = () => {
           <p>Copyright © 2021 | Kishor Bhandari | All Rights Reserved</p>
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="d-flex">
-              <Customlink  to="/gmap">Kanchanpur, Nepal </Customlink>
+              <Customlink  to="">Kanchanpur, Nepal </Customlink>
             </div>
             <div className="d-flex">
               <a href="tel:0977-9848745555">+977-9848762254</a>
@@ -72,11 +72,10 @@ const Footer = () => {
                   size={33}
                 ></FacebookMessengerIcon>
               </FacebookMessengerShareButton> */}
-                   
-          <SocialIcon  className="mx-3" size={33} url={"https://www.linkedin.com/in/kishor-bhandari-a5203420b/"} />
+              <SocialIcon  className="mx-3" size={33} url={"https://www.linkedin.com/in/kishor-bhandari-a5203420b/"} />
               <SocialIcon     className="mx-3" size={33} url={"https://www.facebook.com/bhandarikishor007/"} />
               <SocialIcon  className="mx-3" size={33} url={"https://www.instagram.com/yubi907/?hl=en"} />
-       
+              <SocialIcon  className="mx-3" size={33} url={"https://twitter.com/MrRavan28260932"} />
             </div>
           </div>
      
