@@ -1,13 +1,15 @@
 import React from "react";
 import { Gmap } from "./Gmap";
-import {
-  FacebookIcon,
-  FacebookShareButton,
-  LinkedinIcon,
-  LinkedinShareButton,
-  FacebookMessengerShareButton,
-  FacebookMessengerIcon,
-} from "react-share";
+import { SocialIcon } from 'react-social-icons';
+// import {
+//   FacebookIcon,
+//   FacebookShareButton,
+//   LinkedinIcon,
+//   LinkedinShareButton,
+//   FacebookMessengerShareButton,
+//   FacebookMessengerIcon,
+  
+// } from "react-share";
 import {Link as Customlink} from "react-router-dom";
 
 const Footer = () => {
@@ -46,7 +48,7 @@ const Footer = () => {
           </div>
           <div className="col-lg-5 col-md-5 col-sm-6 align-items-center ">
             <div className="flex justify-content-center">
-              <FacebookShareButton
+              {/* <FacebookShareButton
                 url={"https://www.facebook.com/bhandarikishor007/"}
                 quote="Software Developer"
                 hashtag="#react"
@@ -69,9 +71,15 @@ const Footer = () => {
                   className="mx-3"
                   size={33}
                 ></FacebookMessengerIcon>
-              </FacebookMessengerShareButton>
+              </FacebookMessengerShareButton> */}
+                   
+          <SocialIcon  className="mx-3" size={33} url={"https://www.linkedin.com/in/kishor-bhandari-a5203420b/"} />
+              <SocialIcon     className="mx-3" size={33} url={"https://www.facebook.com/bhandarikishor007/"} />
+              <SocialIcon  className="mx-3" size={33} url={"https://www.instagram.com/yubi907/?hl=en"} />
+       
             </div>
           </div>
+     
         </div>
       </div>
     </div>
