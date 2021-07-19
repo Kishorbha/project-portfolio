@@ -1,4 +1,5 @@
 {
+  "homepage": " https://kishorbha.github.io/project-portfolio/",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +16,7 @@
     "bootstrap": "^5.0.2",
     "emailjs-com": "^3.1.0",
     "firebase-functions": "^3.14.1",
+    "gh-pages": "^3.2.3",
     "google-map-react": "^2.1.10",
     "google-maps-react": "^2.0.6",
     "instagram-private-api": "^1.45.1",
@@ -38,7 +40,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
